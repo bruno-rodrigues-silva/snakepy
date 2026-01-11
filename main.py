@@ -1,3 +1,4 @@
+#Snake Game
 import turtle
 import time
 import random
@@ -8,8 +9,7 @@ score = 0
 high_score = 0
 
 #first is set up the screen
-wn = turtle.Screen()
-#wn is the shortname for window
+wn = turtle.Screen()#->shortname for window
 wn.title('Snake Game by Bruno Silva')
 wn.bgcolor('dark blue')
 wn.setup(width = 600, height = 600)
